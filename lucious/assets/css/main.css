@@ -3224,6 +3224,8 @@
 			width: 75em;
 		}
 
+		
+
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
@@ -3547,6 +3549,12 @@
 		z-index: 10000;
 	}
 
+	#sidebar > .myphoto > .circular{
+		border-radius: 50%; 
+		background-repeat: no-repeat;
+    	background-position: 50%;
+	}
+
 		#sidebar > .inner {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3568,7 +3576,7 @@
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			min-height: 100%;
+			min-height: 70%;
 			opacity: 1;
 			width: 100%;
 		}
@@ -3821,6 +3829,10 @@
 				text-align: center;
 				top: 0;
 				width: 100%;
+			}
+
+			#sidebar > .myphoto{
+				display: none;
 			}
 
 				#sidebar > .inner {
